@@ -115,6 +115,7 @@ export default async function VerificationPage() {
                     <Link href="/">Return to Home</Link>
                   </Button>
                   <Button
+                    disabled= {true}
                     asChild
                     className="bg-emerald-600 hover:bg-emerald-700"
                   >
